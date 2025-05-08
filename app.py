@@ -51,7 +51,7 @@ def create_gauge(value, title):
         mode="gauge+number",
         value=value,
         title={'text': title},
-        gauge={'axis': {'range': [1.30, 1.40]},
+        gauge={'axis': {'range': [1.30, 1.40]}},
         domain={'x': [0, 1], 'y': [0, 1]}
     ))
     fig.update_layout(margin=dict(t=30, b=10))
