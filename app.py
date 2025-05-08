@@ -4,6 +4,11 @@ import pandas as pd
 import plotly.express as px
 from datetime import datetime, timedelta
 import requests
+import sys
+import subprocess
+
+# Install critical dependency first
+subprocess.check_call([sys.executable, "-m", "pip", "install", "setuptools==65.5.0"])
 
 # Configure app
 st.set_page_config(
