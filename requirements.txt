@@ -1,4 +1,4 @@
 streamlit==1.29.0
-yfinance==0.2.28
+yfinance==0.2.31  # Newest version fixes many API issues
 pandas==2.0.3
 plotly==5.18.0
